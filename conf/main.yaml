@@ -1,0 +1,6 @@
+defaults:
+  - task: lego_stacking
+  - logging: default
+  - jax@jax
+  - _self_
+

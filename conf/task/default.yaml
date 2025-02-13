@@ -1,0 +1,26 @@
+SERVER_URL: http://127.0.0.1:5000/
+REALSENSE_CAMERAS:
+    wrist_1: 130322274175
+    wrist_2: 127122270572
+IMAGE_CROP: {}
+TARGET_POSE: ${np:[0, 0, 0, 0, 0, 0]}
+GRASP_POSE: ${np:[0, 0, 0, 0, 0, 0]}
+REWARD_THRESHOLD: ${np:[0, 0, 0, 0, 0, 0]}
+ACTION_SCALE: ${np:[0, 0, 0]}
+RESET_POSE: ${np:[0, 0, 0, 0, 0, 0]}
+RANDOM_RESET: False
+RANDOM_XY_RANGE: 0.0
+RANDOM_RZ_RANGE: 0.0
+ABS_POSE_LIMIT_HIGH: ${np:[0, 0, 0, 0, 0, 0]}
+ABS_POSE_LIMIT_LOW: ${np:[0, 0, 0, 0, 0, 0]}
+COMPLIANCE_PARAM: {}
+RESET_PARAM: {}
+PRECISION_PARAM: {}
+LOAD_PARAM:
+    mass: 0.0
+    F_x_center_load: [0.0, 0.0, 0.0]
+    load_inertia: [0, 0, 0, 0, 0, 0, 0, 0, 0]
+DISPLAY_IMAGE: True
+GRIPPER_SLEEP: 0.6
+MAX_EPISODE_LENGTH: 100
+JOINT_RESET_PERIOD: 0

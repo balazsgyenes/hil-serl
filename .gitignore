@@ -1,0 +1,7 @@
+# Distribution / packaging
+build/
+**/*.egg-info/
+
+# hydra folders
+multirun/
+outputs/

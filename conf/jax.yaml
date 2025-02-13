@@ -1,0 +1,3 @@
+# jax_disable_jit: True
+# jax_default_device: cpu:0
+# jax_log_compiles: True
